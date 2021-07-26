@@ -10,7 +10,7 @@ spec:
   - port: 80
     targetPort: 80
     protocol: TCP
-    nodePort: 30080
+    nodePort: 30008
     name: http
   selector:
     app: devops-toolkit
