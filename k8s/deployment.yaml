@@ -18,9 +18,7 @@ spec:
     spec:
       containers:
       - name: devops-toolkit
-        image: docker/whalesay:latest
-        command: [cowsay]
-        args: ["hello world"]
+        image: gcr.io/heptio-images/ks-guestbook-demo:0.2
         ports:
         - containerPort: 80
         livenessProbe:
